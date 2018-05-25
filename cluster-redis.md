@@ -1,5 +1,12 @@
 # Installation d'un cluster Redis
 
+Nous avons 3 serveurs qui sont :
+```
+srv-prod1 :  10.0.1.7
+srv-prod2 :  10.0.1.8
+srv-prod3 :  10.0.1.9
+```
+
 ### 1. Installation des paquets
 Installation des dépendances
 ```
@@ -51,9 +58,9 @@ cluster-node-timeout 15000
 On répète ces mêmes étapes sur les 3 serveurs avec les ports suivants :
 ```
 Server	Master	Slave
-1		6379	6381
-2		6380	6379
-3		6381	6380
+1	6379	6381
+2	6380	6379
+3	6381	6380
 ```
 Ensuite on va lancer les instances sur les 3 serveurs :
 ```
