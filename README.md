@@ -1,10 +1,6 @@
 # infra
 TP Ingésup B3B NoSQL 2018
 
+Anthony ETOUGHE, Nabil LEMZAOUEQ, Julien AGUER, Alex COUTANT, Raphael BAGNERES
 
-
-3ip sur le meme ndd
-3 machines haute dispo
-cluster redis mongo sur chaque
-round robin
-health probes azure
+-----------
