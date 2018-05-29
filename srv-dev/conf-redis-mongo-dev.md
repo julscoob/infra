@@ -1,7 +1,17 @@
-# Fichier de conf:
+# Fichier de configuration du serveur dev
 
 
-## MongoDB :
+## lamp
+
+On installe un serveur lamp simple.
+* linux - apache2 - mysql - php7 *
+Ensuite, on installe git-auto-pull pour récupérer automatiquement les données des développeurs.
+```
+rpm install git-auto-pull //nécessite nodejs
+node git-auto-pull.js /le/chemin/du/serveur/apache2
+```
+
+## MongoDB
 
 ### Configurer le repertoire de données
 
@@ -23,7 +33,7 @@ sharding:
 
 
 
-## Redis : 
+## Redis
 
 Installer les dépendances build and test
 ```
