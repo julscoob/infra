@@ -1,1 +1,1 @@
-*Ce dossier concerne les modifications du serveur de dev*
+*Ce dossier concerne les modifications du serveur de prod*
